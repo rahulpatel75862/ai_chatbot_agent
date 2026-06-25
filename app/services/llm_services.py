@@ -14,6 +14,8 @@ class LLMService():
     def get_llm(self):
         """
         Returns the initialized llm model.
+        
         """
+        return self.llm
     
 llm_service = LLMService()
