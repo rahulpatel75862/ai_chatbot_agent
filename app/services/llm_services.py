@@ -1,7 +1,7 @@
 from langchain_openai import ChatOpenAI
 from app.config.settings import settings
 
-class LLMService():
+class LLMService:
     def __init__(self):
         self.llm = ChatOpenAI(
             model=settings.MODEL_NAME,
